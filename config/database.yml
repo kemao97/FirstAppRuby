@@ -26,7 +26,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: FirstApp_test
+  database: first-app
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -49,6 +49,6 @@ test:
 #
 production:
   adapter: pg
-  database: FirstApp_production
-  username: FirstApp
-  password: <%= ENV['FIRSTAPP_DATABASE_PASSWORD'] %>
+  database: first-app
+  username: root
+  password: denhatkemao
