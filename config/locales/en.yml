@@ -31,3 +31,28 @@
 
 en:
   hello: "Hello world"
+  user:
+    index:
+      title: "user index"
+    edit:
+      title: "user edit"
+    new:
+      title: "user new"
+    show:
+      title: "user show"
+  micropost:
+    index:
+      title: "micropost index"
+    edit:
+      title: "micropost edit"
+    new:
+      title: "micropost new"
+    show:
+      title: "micropost show"
+  static_page:
+    about:
+      title: "about"
+    help:
+      title: "help"
+    home:
+      title: "home"
