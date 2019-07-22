@@ -3,14 +3,14 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
+  <strong><%= t("user.show.field.name") %>:</strong>
   <%= @user.name %>
 </p>
 
 <p>
-  <strong>Email:</strong>
+  <strong><%= t("user.show.field.email") %>:</strong>
   <%= @user.email %>
 </p>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<%= link_to t("user.show.function.edit"), edit_user_path(@user) %> |
+<%= link_to t("user.show.function.back"), users_path %>

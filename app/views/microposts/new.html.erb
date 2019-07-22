@@ -1,6 +1,6 @@
 <% provide :title, t("micropost.new.title") %>
-<h1>New Micropost</h1>
+<h1><%= t("micropost.new.header") %></h1>
 
-<%= render 'form', micropost: @micropost %>
+<%= render "form", micropost: @micropost %>
 
-<%= link_to 'Back', microposts_path %>
+<%= link_to t("micropost.new.function.back"), microposts_path %>
