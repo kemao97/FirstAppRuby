@@ -5,4 +5,4 @@ require_relative 'application'
 Rails.application.initialize!
 
 #VERSION
-VERSION = '1.0.0'
+VERSION = '1.0.3'
