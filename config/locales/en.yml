@@ -31,9 +31,10 @@
 
 en:
   hello: "Hello world"
-  application:
-    base_title: "Ruby on Rails Tutorial Sample App"
-  user:
+  layouts:
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+  users:
     index:
       title: "user index"
       header: "Users"
@@ -65,7 +66,7 @@ en:
       function:
         edit: "Edit"
         back: "Back"
-  micropost:
+  microposts:
     index:
       title: "micropost index"
       header: "Microposts"
@@ -97,7 +98,7 @@ en:
       function:
         edit: "Edit"
         back: "Back"
-  static_page:
+  static_pages:
     about:
       title: "about"
       header: "StaticPages#about"

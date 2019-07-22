@@ -1,13 +1,13 @@
-<% provide :title, t("micropost.index.title") %>
+<% provide :title, t(".title") %>
 <p id="notice"><%= notice %></p>
 
-<h1><%= t("micropost.index.header") %></h1>
+<h1><%= t ".header" %></h1>
 
 <table>
   <thead>
     <tr>
-      <th><%= t("micropost.index.field.content") %></th>
-      <th><%= t("micropost.index.field.user") %></th>
+      <th><%= t ".field.content" %></th>
+      <th><%= t ".field.user" %></th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -17,14 +17,11 @@
       <tr>
         <td><%= micropost.content %></td>
         <td><%= micropost.user_id %></td>
-        <td><%= link_to t("micropost.index.table.show"), micropost %></td>
-        <td><%= link_to t("micropost.index.table.edit"), edit_micropost_path(micropost) %></td>
-        <td>
-          <%= link_to t("micropost.index.table.destroy"),
-                      micropost,
-                      method: :delete,
-                      data: { confirm: t("micropost.index.table.destroy_confirm") }
-          %>
+        <td><%= link_to t(".table.show"), micropost %></td>
+        <td><%= link_to t(".table.edit"),
+          edit_micropost_path(micropost) %></td>
+        <td><%= link_to t(".table.destroy"), micropost, method: :delete,
+          data: { confirm: t(".table.destroy_confirm") } %>
         </td>
       </tr>
     <% end %>
@@ -33,4 +30,4 @@
 
 <br>
 
-<%= link_to t("micropost.index.table.new"), new_micropost_path %>
+<%= link_to t(".table.new"), new_micropost_path %>

@@ -1,16 +1,16 @@
-<% provide :title, t("user.show.title") %>
+<% provide :title, t(".title") %>
 
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong><%= t("user.show.field.name") %>:</strong>
+  <strong><%= t ".field.name" %>:</strong>
   <%= @user.name %>
 </p>
 
 <p>
-  <strong><%= t("user.show.field.email") %>:</strong>
+  <strong><%= t ".field.email" %>:</strong>
   <%= @user.email %>
 </p>
 
-<%= link_to t("user.show.function.edit"), edit_user_path(@user) %> |
-<%= link_to t("user.show.function.back"), users_path %>
+<%= link_to t(".function.edit"), edit_user_path(@user) %> |
+<%= link_to t(".function.back"), users_path %>

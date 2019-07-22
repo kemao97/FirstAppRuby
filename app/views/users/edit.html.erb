@@ -1,8 +1,8 @@
-<% provide :title, t("user.edit.title") %>
+<% provide :title, t(".title") %>
 
-<h1><%= t("user.edit.header") %></h1>
+<h1><%= t ".header" %></h1>
 
 <%= render "form", user: @user %>
 
-<%= link_to t("user.edit.function.edit"), @user %> |
-<%= link_to t("user.edit.function.back"), users_path %>
+<%= link_to t(".function.edit"), @user %> |
+<%= link_to t(".function.back"), users_path %>
