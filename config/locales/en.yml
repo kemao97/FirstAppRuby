@@ -41,10 +41,10 @@ en:
       title: "about"
       content:
         main: "The %{rails_toturial} is a %{rails_book} and %{screencast} to teach web development with %{ruby_on_rails}. This is the sample application for the tutorial."
-        rails_toturial: <a href="https://www.railstutorial.org/">
+        rails_toturial: <a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>
         rails_book: <a href="https://www.railstutorial.org/book">book</a>
         screencast: <a href="http://screencasts.railstutorial.org/">screencast series</a>
-        ruby_on_rails: <a href="http://rubyonrails.org/">
+        ruby_on_rails: <a href="http://rubyonrails.org/">Ruby on Rails</a>
     help:
       title: "help"
       content:
