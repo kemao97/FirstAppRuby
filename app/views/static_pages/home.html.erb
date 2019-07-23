@@ -1,5 +1,5 @@
 <% provide :title, t(".title") %>
 <h1><%= t(".header") %></h1>
 <p>
-  <%= raw t(".content.main", rails_link: t(".content.rails_toturial")) %>
+  <%= raw t(".content.main", rails_url: link_to(t(".content.rails"), Settings.rails.url)) %>
 </p>
