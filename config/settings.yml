@@ -1,0 +1,8 @@
+rails:
+  url: "https://www.railstutorial.org"
+  book: "https://www.railstutorial.org/book"
+  help: "https://www.railstutorial.org/help"
+screencast:
+  url: "http://screencasts.railstutorial.org"
+ruby_on_rails:
+  url: "http://rubyonrails.org"

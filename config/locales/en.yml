@@ -33,7 +33,7 @@ en:
   hello: "Hello world"
   layouts:
     application:
-      title: "FirstApp"
+      base_title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     base:
       header: "StaticPage"
@@ -41,19 +41,20 @@ en:
       title: "about"
       content:
         main: "The %{rails_toturial} is a %{rails_book} and %{screencast} to teach web development with %{ruby_on_rails}. This is the sample application for the tutorial."
-        rails_toturial: <a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>
-        rails_book: <a href="https://www.railstutorial.org/book">book</a>
-        screencast: <a href="http://screencasts.railstutorial.org/">screencast series</a>
-        ruby_on_rails: <a href="http://rubyonrails.org/">Ruby on Rails</a>
+        rails_toturial: Ruby on Rails Tutorial
+        rails_book: book
+        screencast: screencast series
+        ruby_on_rails: Ruby on Rails
     help:
       title: "help"
       content:
         main: "Get help on the Ruby on Rails Tutorial at the %{rails_help}. To get help on this sample app, see the %{rails_book}."
-        rails_help: <a href="https://www.railstutorial.org/help">Rails Tutorial help page</a>
-        rails_book: <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>
+        rails_help: "Rails Tutorial help page"
+        rails_book: "%{rails_book_important} book"
+        rails_book_important: "Ruby on Rails Tutorial"
     home:
       title: "home"
       header: "Sample App"
       content:
-        main: "This is the home page for the %{rails_link} sample application."
-        rails_toturial: <a href="https://www.railstutorial.org/">hello world</a>
+        main: "This is the home page for the %{rails_url} sample application."
+        rails: "hello world"
