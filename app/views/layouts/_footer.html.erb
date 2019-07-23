@@ -1,0 +1,12 @@
+<footer class="footer">
+  <small>
+    <%= raw t(".small.main", rails_toturial: link_to(t(".small.rails_toturial"), Settings.links.rails.root), michaelhartl: link_to(t(".small.michaelhartl"), Settings.links.michaelhartl)) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".nav.about"), Settings.layouts.footer.nav.about %></li>
+      <li><%= link_to t(".nav.contact"), Settings.layouts.footer.nav.contact %></li>
+      <li><%= link_to t(".nav.new"), Settings.links.rails.new %></li>
+    </ul>
+  </nav>
+</footer>

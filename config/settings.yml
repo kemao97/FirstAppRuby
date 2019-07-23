@@ -1,8 +1,24 @@
-rails:
-  url: "https://www.railstutorial.org"
-  book: "https://www.railstutorial.org/book"
-  help: "https://www.railstutorial.org/help"
-screencast:
-  url: "http://screencasts.railstutorial.org"
-ruby_on_rails:
-  url: "http://rubyonrails.org"
+links:
+  rails:
+    root: "https://www.railstutorial.org"
+    book: "https://www.railstutorial.org/book"
+    help: "https://www.railstutorial.org/help"
+    new: "http://news.railstutorial.org"
+    contact: "https://www.railstutorial.org/contact"
+  screencast: "http://screencasts.railstutorial.org"
+  ruby_on_rails: "http://rubyonrails.org"
+  michaelhartl: "http://www.michaelhartl.com"
+layouts:
+  application:
+    logo: "#"
+    nav:
+      home: "#"
+      help: "#"
+      login: "#"
+  footer:
+    nav:
+      about: "#"
+      contact: "#"
+static_pages:
+  home:
+    sign_up: "#"
