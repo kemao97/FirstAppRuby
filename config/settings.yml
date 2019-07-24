@@ -8,12 +8,9 @@ links:
   screencast: "http://screencasts.railstutorial.org"
   ruby_on_rails: "http://rubyonrails.org"
   michaelhartl: "http://www.michaelhartl.com"
-  gravatar_base: "https://secure.gravatar.com/avatar/"
-views:
-  layouts:
-    header:
-      users: "#"
-      settings: "#"
+  gravatar:
+    base: "https://secure.gravatar.com/avatar/"
+    email: "http://gravatar.com/emails"
 models:
   user:
     email:
@@ -25,3 +22,15 @@ models:
     password:
       min_length: 6
       max_length: 40
+views:
+  users:
+    index:
+      gravatar_size: 50
+controllers:
+  users:
+    index:
+      per_page: 4
+helpers:
+  users:
+    gravatar_for:
+      gravatar_size_default: 80

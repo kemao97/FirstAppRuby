@@ -82,17 +82,38 @@ en:
         main: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact}."
         contact: "contact page"
   users:
+    index:
+      title: "All users"
+      header: "All users"
+      delete: "delete"
     new:
       title: "Sign up"
       header: "Sign up"
-      content: "This will be a signup page for new users."
       form:
         submit: "Create my account"
         errors: "errors"
         base_error: "The form contains"
+    edit:
+      title: "Edit user"
+      header: "Update your profile"
+      form:
+        submit: "Save changes"
+        errors: "errors"
+        base_error: "The form contains"
+      gravatar_change: "change"
+      danger: "Please log in."
     create:
       flash:
         success: "Welcome to the Sample App!"
+    update:
+      danger: "Please log in."
+    destroy:
+      flash:
+        success: "User deleted"
+        danger: "User can't deleted"
+    update:
+      flash:
+        success: "User updated"
   sessions:
     new:
       title: "Log in"
