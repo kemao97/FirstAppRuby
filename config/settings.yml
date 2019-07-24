@@ -22,6 +22,8 @@ models:
     password:
       min_length: 6
       max_length: 40
+    expired:
+      hours: 2
 views:
   users:
     index:

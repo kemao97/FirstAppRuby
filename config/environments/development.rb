@@ -67,7 +67,7 @@ Rails.application.configure do
     :port           => 587,
     :authentication => :plain,
     :domain         => "gmail.com",
-    :user_name      => ENV["FirstAppEmail"],
-    :password       => ENV["FirstAppEmailPass"]
+    :user_name      => ENV["EMAIL"],
+    :password       => ENV["EMAIL_PASS"]
   }
 end
