@@ -86,6 +86,7 @@ en:
       title: "All users"
       header: "All users"
       delete: "delete"
+      delete_confirm: "You sure?"
     new:
       title: "Sign up"
       header: "Sign up"
@@ -104,7 +105,7 @@ en:
       danger: "Please log in."
     create:
       flash:
-        success: "Welcome to the Sample App!"
+        info: "Please check your email to activate your account."
     update:
       danger: "Please log in."
     destroy:
@@ -129,3 +130,18 @@ en:
       checkbox: "Remember me on this computer"
     create:
       login_error: "Invalid email/password combination"
+      flash:
+        warning: "Account not activated. Check your email for the activation link."
+  account_activations:
+    edit:
+      activation:
+        flash:
+          success: "Account activated!"
+          danger: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Subject"
+      header: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
