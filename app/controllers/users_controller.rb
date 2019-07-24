@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @users = User.page(params[:page]).per Settings.controllers.users.index.per_page
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.order_time_desc.page params[:page]
+  end
 
   def new
     @user = User.new

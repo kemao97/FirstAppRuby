@@ -1,10 +1,10 @@
-<% if @user.errors.any? %>
+<% if object.errors.any? %>
   <div id="error_explanation">
     <div class="alert alert-danger">
-      <%= raw "#{yield(:base_error)} #{pluralize(@user.errors.size, yield(:errors))}" %>.
+      <%= raw "#{t(".base_error")} #{pluralize(object.errors.size, t(".errors"))}" %>.
     </div>
     <ul>
-      <% @user.errors.full_messages.each do |msg| %>
+      <% object.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
       <% end %>
     </ul>

@@ -75,6 +75,7 @@ en:
         main: "This is the home page for the %{rails_url} sample application."
         rails: "hello world"
       sign_up: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     contact:
       title: "Contact"
       header: "Contact"
@@ -92,15 +93,11 @@ en:
       header: "Sign up"
       form:
         submit: "Create my account"
-        errors: "errors"
-        base_error: "The form contains"
     edit:
       title: "Edit user"
       header: "Update your profile"
       form:
         submit: "Save changes"
-        errors: "errors"
-        base_error: "The form contains"
       gravatar_change: "change"
       danger: "Please log in."
     create:
@@ -115,6 +112,8 @@ en:
     update:
       flash:
         success: "User updated"
+    show:
+      microposts: "Microposts"
   sessions:
     new:
       title: "Log in"
@@ -172,3 +171,27 @@ en:
       password_empty: "can't be empty"
       flash:
         success: "Password has been reset."
+  microposts:
+    create:
+      flash:
+        success: "Micropost created!"
+    micropost:
+      posted: "Posted"
+      ago: "ago."
+      delete: "delete"
+      delete_confirm: "You sure?"
+    destroy:
+      flash:
+        success: "Micropost deleted"
+        danger: "Micropost can't delete"
+  shared:
+    user_info:
+      my_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      content_holder: "Compose new micropost..."
+      submit: "Post"
+    error_messages:
+      errors: "errors"
+      base_error: "The form contains"
+  picture_limit: "should be less than 5MB"
