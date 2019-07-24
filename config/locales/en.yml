@@ -30,7 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  application:
+    index:
+      hello: "Hello world"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -91,3 +93,17 @@ en:
     create:
       flash:
         success: "Welcome to the Sample App!"
+  sessions:
+    new:
+      title: "Log in"
+      submit: "Log in"
+      signup: "Sign up now!"
+      new_user: "New user?"
+      headers:
+        users: "Users"
+        profile: "Profile"
+        setting: "Settings"
+        logout: "Logout"
+        account: "Account"
+    create:
+      login_error: "Invalid email/password combination"

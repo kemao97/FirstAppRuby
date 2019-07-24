@@ -9,17 +9,11 @@ links:
   ruby_on_rails: "http://rubyonrails.org"
   michaelhartl: "http://www.michaelhartl.com"
   gravatar_base: "https://secure.gravatar.com/avatar/"
-layouts:
-  application:
-    logo: "#"
-    nav:
-      home: "#"
-      help: "#"
-      login: "#"
-  footer:
-    nav:
-      about: "#"
-      contact: "#"
+views:
+  layouts:
+    header:
+      users: "#"
+      settings: "#"
 models:
   user:
     email:
