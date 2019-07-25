@@ -19,6 +19,14 @@ layouts:
     nav:
       about: "#"
       contact: "#"
-static_pages:
-  home:
-    sign_up: "#"
+models:
+  user:
+    email:
+      regexp_valid: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+    name:
+      max_length: 50
+    email:
+      max_length: 255
+    password:
+      min_length: 6
+      max_length: 40

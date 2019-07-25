@@ -79,3 +79,8 @@ en:
       content:
         main: "Contact the Ruby on Rails Tutorial about the sample app at the %{contact}."
         contact: "contact page"
+  users:
+    new:
+      title: "Sign up"
+      header: "Sign up"
+      content: "This will be a signup page for new users."
