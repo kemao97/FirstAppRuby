@@ -84,3 +84,10 @@ en:
       title: "Sign up"
       header: "Sign up"
       content: "This will be a signup page for new users."
+      form:
+        submit: "Create my account"
+        errors: "errors"
+        base_error: "The form contains"
+    create:
+      flash:
+        success: "Welcome to the Sample App!"
