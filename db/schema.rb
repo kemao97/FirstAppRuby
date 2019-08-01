@@ -22,5 +22,7 @@ ActiveRecord::Schema.define(version: 2019_07_29_071121) do
     t.string "activation_digest"
     t.boolean "activated"
     t.datetime "activated_at"
+    t.string "reset_digest"
+    t.datetime "reset_sent_at"
   end
 end
