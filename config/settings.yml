@@ -24,9 +24,19 @@ models:
       max_length: 40
     expired:
       hours: 2
+  micropost:
+    max_upload: 5
+    content:
+      max_length: 140
 views:
   users:
     index:
+      gravatar_size: 50
+  microposts:
+    micropost:
+      gravatar_size: 50
+  shared:
+    user_info:
       gravatar_size: 50
 controllers:
   users:
