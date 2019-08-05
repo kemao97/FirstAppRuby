@@ -32,6 +32,10 @@ views:
   users:
     index:
       gravatar_size: 50
+    user:
+      gravatar_size: 50
+    show_follow:
+      gravatar_size: 30
   microposts:
     micropost:
       gravatar_size: 50

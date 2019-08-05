@@ -2,7 +2,6 @@ class Micropost < ApplicationRecord
   belongs_to :user
 
   scope :order_time_desc, -> { order(created_at: :desc) }
-  scope :feed, ->(id) { where(user_id: id) }
 
   mount_uploader :picture, PictureUploader
 
