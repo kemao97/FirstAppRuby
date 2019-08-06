@@ -8,7 +8,7 @@ class MicropostsController < ApplicationController
       flash[:success] = t ".flash.success"
       redirect_to root_url
     else
-      @feed_items = current_user.feed.order_time_desc.page
+      @feed_items = current_user.microposts.order_time_desc.page
       render "static_pages/home"
     end
   end
@@ -26,12 +26,6 @@ class MicropostsController < ApplicationController
 
   def micropost_params
     params.require(:micropost).permit :content, :picture
-  end
-
-  def logged_in_user
-    return if logged_in?
-    flash[:danger] = t ".danger"
-    redirect_to login_url
   end
 
   def correct_user

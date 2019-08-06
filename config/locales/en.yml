@@ -114,6 +114,12 @@ en:
         success: "User updated"
     show:
       microposts: "Microposts"
+    follow:
+      submit: "Follow"
+    unfollow:
+      submit: "Unfollow"
+    show_follow:
+      microposts: "Micropost"
   sessions:
     new:
       title: "Log in"
@@ -194,4 +200,14 @@ en:
     error_messages:
       errors: "errors"
       base_error: "The form contains"
+    stats:
+      following: "following"
+      followers: "followers"
+  relationships_controller:
+    create:
+      flash:
+        danger: "user not found"
+    destroy:
+      flash:
+        danger: "user not found"
   picture_limit: "should be less than 5MB"

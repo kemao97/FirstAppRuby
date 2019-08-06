@@ -23,6 +23,12 @@ module SessionsHelper
     @current_user = nil
   end
 
+  def logged_in_user
+    return if logged_in?
+    flash[:danger] = t ".danger"
+    redirect_to login_url
+  end
+
   def logged_in?
     current_user.present?
   end
