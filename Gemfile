@@ -18,7 +18,7 @@ gem "kaminari"
 gem "bootstrap-kaminari-views"
 gem "ffaker"
 gem "figaro"
-gem "carrierwave", "1.2.2"
+gem "carrierwave", "1.3.2"
 gem "mini_magick", "4.7.0"
 
 group :development, :test do
